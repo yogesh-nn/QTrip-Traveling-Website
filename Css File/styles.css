@@ -53,15 +53,21 @@ header a {
   width: 50vw;
 }
 
+.card img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
 .card-body .card-text {
   color: white;
+  letter-spacing: 2px;
 }
 
 .card-body {
   bottom: 0;
   left: 5rem;
-}
+  /* right: 5rem; */
+  /* display: flex; */
 
-.card-body .card-text strong, .card-body .card-text p {
-  letter-spacing: 2px;
 }
