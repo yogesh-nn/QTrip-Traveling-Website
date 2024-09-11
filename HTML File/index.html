@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" id="container-fluid">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">QTrip</a>
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Explore</a>
@@ -48,16 +48,124 @@
     <!-- 1. Use appropriate css classes on the hero image container element. -->
     <!-- 2. Add child elements as required. -->
     <section class="hero-section">
-      <div class="hero-image d-flex">
-
+      <div class="hero-image d-flex justify-content-center align-items-center text-center">
+        <div class="text">
+          <h1>Welcome to QTrip</h1>
+          <p>Explore the world with fantastic places to venture around</p>
+          <div class="form-outline" data-mdb-input-init>
+            <input type="search" id="form1" class="form-control" placeholder="Search a City" aria-label="Search" />
+          </div>
+        </div>
       </div>
     </section>
 
 
-    <div class="container">
+    <section class="city-grid">
       <!-- TODO: MODULE_LAYOUT -->
       <!-- 1. Create the grid like layout as required. -->
-    </div>
+
+      <!-- <div class="row">
+          <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+            <a href="#">Bengaluru</a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+            <a href="#">Kolkata</a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+            <a href="#">Goa</a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+            <a href="#">Mumbai</a>
+          </div>
+        </div> -->
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Bengaluru</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Kolkata</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Goa</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Mumbai</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Singapore</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Dubai</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Malaysia</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-12 col-sm-6 mb-4">
+          <div class="card position-relative">
+            <img src="/Assets/bengaluru.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute d-flex flex-column justify-content-center align-items-center">
+              <strong class="card-text text-center">Paris</strong>
+              <p class="card-text text-center">100+ PLACES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
 
     <footer>
       <div class="container"></div>
