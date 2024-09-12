@@ -72,14 +72,12 @@ header a {
   transition: all 1.1s;
 }
 
-#advCards img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-}
-
 #advCards .card img {
   transition: all 0.2s ease-in-out;
+  /* height: 100%; */
+  height: 20rem;
+  /* width: 100% */
+  object-fit: cover;
 }
 
 #advCards .card:hover img {
