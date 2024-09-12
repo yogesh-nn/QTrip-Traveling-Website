@@ -83,3 +83,14 @@ header a {
 #advCards .card:hover img {
   filter: brightness(75%);
 }
+
+/* @media (max-width: 768px) {
+  #advCards .card-body {
+      flex-direction: column;
+  }
+} */
+
+#textAdv .text {
+  margin-top: 60px;
+  margin-left: 5px;
+}
