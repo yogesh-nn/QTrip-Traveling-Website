@@ -94,3 +94,15 @@ header a {
   margin-top: 60px;
   margin-left: 5px;
 }
+
+
+.section1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.first img {
+  width: 400px;
+  height: 440px;
+}
